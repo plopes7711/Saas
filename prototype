@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Automation Platform Prototype</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        section {
+            padding: 2rem;
+        }
+
+        .automation-card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .automation-card:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Task Automation Platform</h1>
+        <p>Automate Your Workflow Effortlessly</p>
+    </header>
+
+    <section>
+        <div class="automation-card">
+            <h2>Drag-and-Drop Automation Builder</h2>
+            <p>Create automation workflows easily with a simple drag-and-drop interface.</p>
+        </div>
+
+        <div class="automation-card">
+            <h2>Pre-built Automation Templates</h2>
+            <p>Get started quickly with pre-configured templates for common tasks.</p>
+        </div>
+
+        <div class="automation-card">
+            <h2>Natural Language Processing</h2>
+            <p>Create automation rules using natural language, no coding skills required.</p>
+        </div>
+
+        <!-- Add more automation cards as needed -->
+
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Task Automation Platform</p>
+    </footer>
+
+</body>
+</html>
